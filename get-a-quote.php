@@ -1,8 +1,8 @@
 <?php
 
 // --- reCAPTCHA v3 configuration ---
-$recaptcha_site_key   = '6LdAIw8sAAAAALwiw0AKCbmwuQbq_S_VgZFKZJz5';
-$recaptcha_secret_key = '6LdAIw8sAAAAAG3o8Sz9XBegel2T545TM5GQRzp4';
+$recaptcha_site_key   = '###';
+$recaptcha_secret_key = '###';
 
 use PHPMailer\PHPMailer\PHPMailer;
 use PHPMailer\PHPMailer\Exception;
@@ -31,7 +31,7 @@ if (
             $mail->Host = 'smtp.gmail.com';
             $mail->SMTPAuth = true;
             $mail->Username = 'etech.afzaal@gmail.com';
-            $mail->Password = 'cble xmvu mhiw xdcp';
+            $mail->Password = '###';
             $mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;
             $mail->Port = 587;
 
